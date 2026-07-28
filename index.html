@@ -315,11 +315,50 @@
          Optionaler Anker für Button
          ========================================================== -->
 
-    <section class="request" id="anfrage" aria-label="Anfragebereich">
-        <p class="request__text">
-            Interesse an der Session? Nutzen Sie diesen Bereich später für ein Formular oder eine Kontaktmöglichkeit.
-        </p>
-    </section>
+   <section class="request" id="anfrage">
+
+    <div class="request__text">
+
+        <h2>🎓 Seminarplatz anfragen</h2>
+
+        <form
+            action="https://formsubmit.co/DEINEEMAIL"hidden"
+                   name="_subject"
+                   value="Neue Seminaranfrage">
+
+            <label>Vor- und Nachname</label>
+            <input type="text"
+                   name="Name"
+                   required>
+
+            <label>E-Mail</label>
+            <input type="email"
+                   name="E-Mail"
+                   required>
+
+            <label>Unternehmen</label>
+            <input type="text"
+                   name="Unternehmen">
+
+            <label>Anzahl Teilnehmende</label>
+            <input type="number"
+                   name="Teilnehmende">
+
+            <label>Nachricht</label>
+
+            <textarea
+                name="Nachricht"
+                rows="5"></textarea>
+
+            <button type="submit">
+                Anfrage senden
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
 
 </body>
 
