@@ -189,6 +189,12 @@ body {
     font-weight: 800;
 }
 
+/* ==========================================================
+   Anmeldebutton
+  
+   ========================================================== */
+
+
 .site-header__button {
     display: inline-flex;
     align-items: center;
@@ -236,7 +242,29 @@ body {
     outline-offset: 4px;
 }
 
+.site-header__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
+    min-height: 48px;
+
+    padding: 0.95rem 1.4rem;
+
+    color: #ffffff;
+
+    background: linear-gradient(
+        135deg,
+        #4f46e5,
+        #2563eb
+    );
+
+    border-radius: 1rem;
+
+    text-decoration: none;
+
+    font-weight: 800;
+}
 /* ==========================================================
    Hauptlayout
    Block: course
