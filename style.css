@@ -48,7 +48,7 @@ body {
 
     color: #0f172a;
 
-    overflow: hidden;
+   overflow-y: auto;
 }
 
 
