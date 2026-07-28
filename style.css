@@ -999,7 +999,111 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
+/* ==========================================================
+   Danke-Seite
+   ========================================================== */
 
+.thankyou {
+
+    min-height: 10*vh;
+
+    display: flex;
+    align-*tems: center;
+    justify-content:*center;
+
+    padding: 2rem;
+
+    b*ckground:
+        radial-gradient(*            circle at top left,
+  *         rgba(99,102,241,.15),
+   *        transparent 35%
+        ),*        radial-gradient(
+         *  circle at bottom right,
+        *   rgba(16,185,129,.12),
+         *  transparent 35%
+        ),
+     *  #f8fafc;
+}
+
+.thankyou__card {
+
+ *  max-width: 850px;
+
+    padding: *rem;
+
+    text-align: center;
+
+   *background: rgba(255,255,255,.92);*
+    border-radius: 32px;
+
+    bac*drop-filter: blur(20px);
+
+    box-*hadow:
+        0 20px 60px rgba(15*23,42,.08);
+}
+
+.thankyou__icon {
+
+*   font-size: 4rem;
+
+    margin-bo*tom: 1rem;
+}
+
+.thankyou__title {
+
+*   margin: 0 0 1.5rem;
+
+    color:*#0f172a;
+
+    font-size: clamp(2re*,4vw,3.5rem);
+
+    line-height: 1.*;
+}
+
+.thankyou__text {
+
+    margin*bottom: 1.2rem;
+
+    color: #47556*;
+
+    font-size: 1.15rem;
+
+    li*e-height: 1.8;
+}
+
+.thankyou__butto* {
+
+    display: inline-block;
+
+  * margin-top: 1.5rem;
+
+    padding:*1rem 2rem;
+
+    color: #ffffff;
+
+ *  background:
+        linear-gradi*nt(
+            135deg,
+          * #4f46e5,
+            #2563eb
+    *   );
+
+    border-radius: 16px;
+
+ *  text-decoration: none;
+
+    font*weight: 700;
+
+    transition: all *25s ease;
+}
+
+.thankyou__button:hov*r {
+
+    transform: translateY(-2p*);
+
+    box-shadow:
+        0 12px*30px rgba(37,99,235,.25);
+}
 
 /* ==========================================================
    KORREKTUR
